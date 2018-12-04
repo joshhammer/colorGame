@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #232323;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(75, 125, 175);
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: rgb(75, 125, 175);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#selectedColor {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: rgb(75, 125, 175);
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    height: 100%;
+    padding: 0 10px;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgb(75, 125, 175);
+    color: white;
+}
+
+#message {
+    display: inline-block;
+    width: 15%;
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#container {
+    margin: 20px auto 0 auto;
+    max-width: 600px;
+}
+
+.square {
+    width: 30%;
+    margin: 1.66%;
+    background: purple;
+    float: left;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: background 0.5s;
+}
+
+.selected {
+    background-color: rgb(75, 125, 175);
+    color: white;
+}
+
+#reset {
+    width: 140px;
+}
