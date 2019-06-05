@@ -61,7 +61,6 @@ button:hover {
 #message {
     display: inline-block;
     width: 15%;
-    color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
